@@ -1428,3 +1428,27 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65) ~[mysql-connector-java-8.0.15.jar:8.0.15]
 	... 51 common frames omitted
 
+2021-11-17 14:01:13.252  INFO 5588 --- [main] tn.esprit.spring.test.TestDepartement    : Starting TestDepartement on DESKTOP-AA2FSF5 with PID 5588 (started by Lenovo in C:\Users\Lenovo\Desktop\TimesheetProject)
+2021-11-17 14:01:13.258  INFO 5588 --- [main] tn.esprit.spring.test.TestDepartement    : No active profile set, falling back to default profiles: default
+2021-11-17 14:01:14.692  INFO 5588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-17 14:01:14.831  INFO 5588 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 125ms. Found 6 repository interfaces.
+2021-11-17 14:01:15.407  INFO 5588 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ba4dd2de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-17 14:01:15.738  INFO 5588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-17 14:01:16.005  INFO 5588 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-17 14:01:16.123  INFO 5588 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-17 14:01:16.273  INFO 5588 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-17 14:01:16.277  INFO 5588 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-17 14:01:16.549  INFO 5588 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-17 14:01:17.146  INFO 5588 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-17 14:01:18.954  INFO 5588 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 14:01:19.529  INFO 5588 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-17 14:01:21.062  INFO 5588 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-17 14:01:21.246  WARN 5588 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-17 14:01:21.883  INFO 5588 --- [main] tn.esprit.spring.test.TestDepartement    : Started TestDepartement in 9.418 seconds (JVM running for 11.673)
+2021-11-17 14:01:22.160  INFO 5588 --- [main] tn.esprit.spring.test.TestDepartement    : le departement est ajouteé avec succés
+2021-11-17 14:01:22.355  INFO 5588 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-17 14:01:22.360  INFO 5588 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-17 14:01:22.363  INFO 5588 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-17 14:01:22.376  INFO 5588 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
